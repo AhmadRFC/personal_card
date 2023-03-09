@@ -53,7 +53,7 @@ class MyWidget extends StatelessWidget {
                 width: 200,
                 child: Divider(color: Colors.black87),
               ),
-              Card(
+              const Card(
                 margin: EdgeInsets.all(20),
                 child: ListTile(
                   leading: Icon(
@@ -62,7 +62,7 @@ class MyWidget extends StatelessWidget {
                     color: Colors.blueGrey,
                   ),
                   title: Padding(
-                    padding: const EdgeInsets.only(left: 24),
+                    padding: EdgeInsets.only(left: 24),
                     child: Text(
                       '+123 4567 890',
                       style: TextStyle(
@@ -74,7 +74,7 @@ class MyWidget extends StatelessWidget {
                   ),
                 ),
               ),
-              Card(
+              const Card(
                 margin: EdgeInsets.all(20),
                 child: ListTile(
                   leading: Icon(
@@ -83,7 +83,7 @@ class MyWidget extends StatelessWidget {
                     color: Colors.blueGrey,
                   ),
                   title: Padding(
-                    padding: const EdgeInsets.only(left: 24),
+                    padding: EdgeInsets.only(left: 24),
                     child: Text(
                       'abcd@gmail.com',
                       style: TextStyle(
