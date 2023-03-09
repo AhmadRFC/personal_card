@@ -18,9 +18,9 @@ class MyWidget extends StatelessWidget {
             children: [
               CircleAvatar(
                 radius: 60,
-                backgroundImage: AssetImage('images/IMG_6418.jpg'),
+                backgroundImage: const AssetImage('images/IMG_6418.jpg'),
                 child: Container(
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     shape: BoxShape.circle,
                     image: DecorationImage(
                       image: AssetImage('images/IMG_6418.jpg'),
@@ -30,7 +30,7 @@ class MyWidget extends StatelessWidget {
                   ),
                 ),
               ),
-              Text(
+              const Text(
                 'AhmadRFC',
                 style: TextStyle(
                   fontFamily: 'IndieFlower',
@@ -39,7 +39,7 @@ class MyWidget extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Text(
+              const Text(
                 'Software Engineer',
                 style: TextStyle(
                   color: Colors.white70,
@@ -48,10 +48,10 @@ class MyWidget extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
-                child: Divider(color: Colors.black87),
                 width: 200,
+                child: Divider(color: Colors.black87),
               ),
               Card(
                 margin: EdgeInsets.all(20),
